@@ -1,0 +1,105 @@
+/*@font-face{ font-family: thefont; src: url(fonts/gotham-font/GothamBook.ttf);}
+@font-face{ font-family: thefontl; src: url(fonts/gotham-font/GothamLight.ttf);}
+@font-face{ font-family: thefontb; src: url(fonts/gotham-font/GothamBold.ttf);}
+@font-face{ font-family: helvetica; src: url(fonts/helveticaneue-font/HelveticaNeueLt.ttf);}
+body{ 
+	font-family: "thefont", verdana, sans-serif; 
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family: "thefont", verdana, sans-serif; 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1rem;
+}
+.main-container{
+	width: 100%;
+}
+*/
+
+
+
+
+.side-nav{
+	width: 15%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	background-color: #161f2b;
+}
+.side-nav a{
+	color: #fff;
+	display: block;
+	border: 0;
+	margin: 0;
+
+	text-decoration: ;
+}
+.side-nav a i{
+		padding-right: 0.8rem;
+}
+
+.side-nav a:hover{
+	background-color: #202936;
+
+}
+
+
+
+.main-content{
+	margin-left: 15%;
+	padding: 0 5%;
+
+}
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and Down) 
+@media only screen and (max-width: 768px) {
+.side-nav{
+	width: 10%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	background-color: #161f2b;
+	padding-top: 4%;
+}
+.side-nav a{
+	color: #fff;
+	display: block;
+	border: 0;
+	margin: 0;
+	text-decoration: none;
+	padding: 0.8rem 0.8rem;
+	text-align: center;
+}
+.side-nav a i{
+	
+	padding-right: 0rem;
+}
+.side-nav a span{
+	display: none;
+}
+
+
+.main-content{
+	margin-left: 5%;
+	padding: 0 10%;
+
+}
+
+}
+*/
+/* End of Media Queries 768px */
+
+
+
+
+
+
